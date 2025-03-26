@@ -1,14 +1,13 @@
 import React from "react";
 import ShopItem from "./ShopItem";
-import { CleaningItem } from "./CleaningItem";
+import { ShopItems } from "./ShopItems";
 import { Link } from "react-router-dom";
 
-const Cleaning = () => {
+const Newone = () => {
   return (
     <section className="shop-area pt-130 pb-130">
       <div className="container">
 
-      
       <div className="row align-items-center">
          
          <div className="col-lg-12">
@@ -25,7 +24,7 @@ const Cleaning = () => {
                    type="button"
                    role="tab"
                    aria-controls="office-tab-pane"
-                   aria-selected="false"
+                   aria-selected="true"
                  >
                   Commercial & Industrial Equipment
                  </h5></Link> 
@@ -360,50 +359,92 @@ const Cleaning = () => {
 
 
 
+        
 
-
-        <div className="shop-top-wrap mb-50">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-sm-6">
-              
-              {/* <div className="shop-showing-result">
-                <p>Showing all 9 results</p>
-              </div> */}
-            </div>
-            {/* <div className="col-lg-6 col-sm-6">
-              <div className="shop-ordering">
-                <select name="orderby" className="orderby">
-                  <option value="Default sorting">Default sorting</option>
-                  <option value="Sort by popularity">Sort by popularity</option>
-                  <option value="Sort by average rating">
-                    Sort by average rating
-                  </option>
-                  <option value="Sort by latest">Sort by latest</option>
-                  <option value="Sort by latest">Sort by latest</option>
-                </select>
-              </div>
-            </div> */}
+       <div className="shop-item-wrap">
+  <div className="col-lg-12 col-md-6 col-sm-9">
+    <div className="col">
+      {/* Row 1 */}
+      <div className="row">
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+              <img src="/img/AllRAR/newone/1.webp" alt="" className="img-fluid" />
+            </Link>
           </div>
         </div>
-
-        <div className="shop-item-wrap" >
-        <div className="row row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1" >
-            {CleaningItem.map((x, index) => (
-              <div key={index} className="col">
-                <ShopItem item={x} />
-              </div>
-            ))}
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/2.webp" alt="" className="img-fluid" />
+            </Link>
           </div>
-
-          {/* <div className="autoload-btn text-center mt-30">
-            <a href="#!" className="btn">
-              Auto load
-            </a>
-          </div> */}
         </div>
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/3.webp" alt="" className="img-fluid" />
+            </Link>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/4.webp" alt="" className="img-fluid" />
+            </Link>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/5.webp" alt="" className="img-fluid" />
+            </Link>
+          </div>
+        </div>
+       
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/7.webp" alt="" className="img-fluid" />
+            </Link>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/8.webp" alt="" className="img-fluid" />
+            </Link>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/9.webp" alt="" className="img-fluid" />
+            </Link>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="shop-thumb">
+            <Link>
+            <img src="/img/AllRAR/newone/6.webp" alt="" className="img-fluid" />
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/* Row 2 */}
+    
+      {/* Row 3 - Added 5 & 6 */}
+      
+      {/* Row 4 - Added 7 & 8 */}
+     
+    </div>
+  </div>
+</div>
+
+
       </div>
     </section>
   );
 };
 
-export default Cleaning;
+export default Newone;

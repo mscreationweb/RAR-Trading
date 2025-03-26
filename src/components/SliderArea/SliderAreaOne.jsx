@@ -27,9 +27,9 @@ const SliderAreaOne = () => {
 
   const slider_area_one_items = [
     {
-      bg: "/img/slider/Banner.jpg",
+      bg: "img/AllRAR/Banner .webp",
       subtitle: "",
-      title: "Providing high quality, everyday essentials that make life easier",
+      title: "A trusted supplier of high-quality cleaning solutions for commercial, industrial, and residential applications",
     }
   ];
 

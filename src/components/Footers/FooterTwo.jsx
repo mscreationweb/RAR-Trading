@@ -81,7 +81,7 @@ const FooterTwo = () => {
               <div className="col-lg-12">
                 <div className="logo">
                   <Link to="/">
-                    <img src="/img/All sun light/Homepage/Footer Logo.png" alt="" />
+                    <img src="img/AllRAR/logo/RAR .png" alt=""  />
                   </Link>
                 </div>
                 <div className="footer-social-menu">
@@ -104,22 +104,23 @@ const FooterTwo = () => {
                 <div className="footer-social-menu">
                 <ul className="list-wrap">
   <li>
-    <a href="https://wa.me/97143706261"  rel="noopener noreferrer">
+    <a href="https://wa.me/971558066233"  rel="noopener noreferrer">
       <i className="fab fa-whatsapp"></i> {/* WhatsApp */}
     </a>
   </li>
   <li>
-    <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+    <a href="#" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-instagram"></i> {/* Instagram */}
     </a>
   </li>
   <li>
-    <a href="mailto:infosunlightsgt@gmail.com">
+    <a href="#">
+    {/* <a href="mailto:infosunlightsgt@gmail.com"> */}
       <i className="fas fa-envelope"></i> {/* Email */}
     </a>
   </li>
   <li>
-    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+    <a href="#" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-linkedin"></i> {/* LinkedIn */}
     </a>
   </li>

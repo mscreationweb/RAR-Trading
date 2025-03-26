@@ -37,7 +37,7 @@ const HeaderTwo = () => {
                 <nav className="menu-nav">
                   <div className="logo">
                     <Link to="/">
-                      <img src="/img/All sun light/Sunlight Logo.png" alt="Logo" />
+                      <img src="/img/AllRAR/logo/logo.png" alt="Logo" />
                     </Link>
                   </div>
 

@@ -8,6 +8,7 @@ const Dispenser = () => {
     <section className="shop-area pt-130 pb-130">
       <div className="container">
 
+     
       <div className="row align-items-center">
          
          <div className="col-lg-12">
@@ -16,29 +17,29 @@ const Dispenser = () => {
            
              <ul className="nav nav-tabs" id="myTab" role="tablist">
              <li className="nav-item" role="presentation">
-               <Link to='/Chemical' ><h5
-                   className="nav-link"
+               <Link to='/commercial' ><h5
+                   className="nav-link active"
                    id="office-tab"
                    data-bs-toggle="tab"
                    data-bs-target="#office-tab-pane"
                    type="button"
                    role="tab"
-                   aria-controls="office-tab-pane"
+                  aria-controls="office-tab-pane"
                    aria-selected="false"
                  >
-                   Chemical
+                  Commercial & Industrial Equipment
                  </h5></Link> 
                </li>
              <li className="nav-item" role="presentation">
                 <Link to='/Cleaning' ><h5
-                    className="nav-link"
+                   className="nav-link"
                    id="all-tab"
                    data-bs-toggle="tab"
                   
                    type="button"
                    role="tab"
-                   aria-controls="all-tab-pane"
-                   aria-selected="true"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
                  >
                   Cleaning Trolleys
                   & Accessories
@@ -47,14 +48,14 @@ const Dispenser = () => {
                </li>
                <li className="nav-item" role="presentation">
                <Link to='/Dispenserpaper' ><h5
-                  className="nav-link active"
+                   className="nav-link"
                    id="office-tab"
                    data-bs-toggle="tab"
                    data-bs-target="#office-tab-pane"
                    type="button"
                    role="tab"
                    aria-controls="office-tab-pane"
-                   aria-selected="false"
+                   aria-selected="true"
                  >
                    Dispenser &
                    Paper Products
@@ -74,6 +75,95 @@ const Dispenser = () => {
                  Printers & Office gadgets
                  </h5></Link> 
                </li>
+               <li className="nav-item" role="presentation">
+               <Link to='/Hygiene-protective' ><h5
+                   className="nav-link"
+                   id="office-tab"
+                   data-bs-toggle="tab"
+                   data-bs-target="#office-tab-pane"
+                   type="button"
+                   role="tab"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
+                 >
+                 Hygiene &
+                 Protective Wears
+                 </h5></Link> 
+               </li>
+               <li className="nav-item" role="presentation">
+               <Link to='/Disposablel-products' ><h5
+                   className="nav-link"
+                   id="office-tab"
+                   data-bs-toggle="tab"
+                   data-bs-target="#office-tab-pane"
+                   type="button"
+                   role="tab"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
+                 >
+             Disposable
+             Products
+                 </h5></Link> 
+               </li>
+               <li className="nav-item" role="presentation">
+               <Link to='/Garbage-bins' ><h5
+                   className="nav-link"
+                   id="office-tab"
+                   data-bs-toggle="tab"
+                   data-bs-target="#office-tab-pane"
+                   type="button"
+                   role="tab"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
+                 >
+          Garbage Bins
+          & Bags
+                 </h5></Link> 
+               </li>
+               <li className="nav-item" role="presentation">
+               <Link to='/vacuum-cleaners' ><h5
+                   className="nav-link"
+                   id="office-tab"
+                   data-bs-toggle="tab"
+                   data-bs-target="#office-tab-pane"
+                   type="button"
+                   role="tab"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
+                 >
+         Vacuum
+         Cleaners
+                 </h5></Link> 
+               </li>
+               <li className="nav-item" role="presentation">
+               <Link to='/tationeries' ><h5
+                   className="nav-link"
+                   id="office-tab"
+                   data-bs-toggle="tab"
+                   data-bs-target="#office-tab-pane"
+                   type="button"
+                   role="tab"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
+                 >
+       Stationeries
+                 </h5></Link> 
+               </li>
+               <li className="nav-item" role="presentation">
+               <Link to='/industrial' ><h5
+                   className="nav-link"
+                   id="office-tab"
+                   data-bs-toggle="tab"
+                   data-bs-target="#office-tab-pane"
+                   type="button"
+                   role="tab"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
+                 >
+      Industrial & Automotive Batteries
+                 </h5></Link> 
+               </li>
+
 
                </ul>
            </div>
@@ -84,7 +174,7 @@ const Dispenser = () => {
         <div className="project-nav-wrap mb-40">
         
           <ul className="nav nav-tabs" id="myTab" role="tablist">
-
+{/* 
           <li className="nav-item" role="presentation">
                <Link to='/Hygiene-protective' ><h5
                    className="nav-link"
@@ -159,6 +249,20 @@ const Dispenser = () => {
        Stationeries
                  </h5></Link> 
                </li>
+               <li className="nav-item" role="presentation">
+               <Link to='/industrial' ><h5
+                   className="nav-link"
+                   id="office-tab"
+                   data-bs-toggle="tab"
+                   data-bs-target="#office-tab-pane"
+                   type="button"
+                   role="tab"
+                   aria-controls="office-tab-pane"
+                   aria-selected="false"
+                 >
+      Industrial & Automotive Batteries
+                 </h5></Link> 
+               </li> */}
 
 
 

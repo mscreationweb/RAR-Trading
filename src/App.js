@@ -34,6 +34,7 @@ import Tationeriespage from "./pages/Produts/Tationeriespage";
 import Vacumpage from "./pages/Produts/Vacumpage";
 import Hygienepage from "./pages/Produts/Hygienepage";
 import PrintersCom from "./pages/Produts/PrintersCom";
+import Newpage from "./pages/Produts/Newpage";
 
 function App() {
   // wow js scroll
@@ -110,7 +111,7 @@ function App() {
         <Route path="/blog-list" element={<BlogListPage />} />
         <Route path="/blog-details" element={<BlogDetailsPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/Chemical" element={<Chemical />} />
+        <Route path="/commercial" element={<Chemical />} />
         <Route path="/Cleaning" element={<Cleaningpage />} />
         <Route path="/Dispenserpaper" element={<Dispenserpage />} />
         <Route path="/Hygiene-protective" element={<Hygienepage/>} />
@@ -119,6 +120,7 @@ function App() {
         <Route path="/vacuum-cleaners" element={<Vacumpage/>} />
         <Route path="/tationeries" element={<Tationeriespage/>} />
         <Route path="/printers" element={<PrintersCom/>} />
+        <Route path="/industrial" element={<Newpage/>} />
       </Routes>
     </>
   );

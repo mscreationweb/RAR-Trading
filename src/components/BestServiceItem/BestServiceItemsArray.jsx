@@ -1,10 +1,10 @@
 export const BestServiceItemsArray = [
   {
-    title: "Chemicals",
+    title: "Commercial & Industrial Equipment",
     subtitle:
       "A wide range of cleaning and disinfecting solutions to maintain hygiene and safety in various environments",
     url: "/Chemical",
-    src2: "/img/All sun light/services/1.jpg",
+    src2: "/img/AllRAR/Commercial.webp",
     src3: "/img/All sun light/icons/1.png",
    
   },
@@ -96,6 +96,16 @@ export const BestServiceItemsArray = [
     src: "/img/images/services_img02.jpg",
     src2: "/img/All sun light/services/Print.webp",
     src3: "/img/All sun light/icons/10.png",
+  
+  },
+  {
+    title: " Industrial & Automotive Batteries",
+    subtitle:
+      " Industrial & Automotive Batteries – Powering Performance & Reliability.",
+    url: "/industrial",
+    src: "/img/images/services_img02.jpg",
+    src2: "/img/AllRAR/INDUSTRIAL .webp",
+    src3: "/img/All sun light/icons/4.png",
   
   },
   

@@ -11,9 +11,9 @@ const IntroductionAreaOne = () => {
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-9">
             <div className="introduction-img-wrap">
-              <img src="/img/All sun light/Homepage/Round - Big.webp" alt="" />
+              <img src="/img/AllRAR/about1.webp" alt="" />
               <img
-                src="/img/All sun light/Homepage/Round - Small.webp"
+                src="/img/AllRAR/about2.webp"
                 data-aos="fade-right"
                 alt=""
               />
@@ -51,8 +51,7 @@ const IntroductionAreaOne = () => {
               <div className="section-title-two mb-20 tg-heading-subheading animation-style2">
                 <span className="sub-title">Our Introduction</span>
                 <h2 className="title tg-element-title">
-                Welcome to Sunlight <br />
-                General Trading LLC
+                Welcome to RAR
                 </h2>
               </div>
 
@@ -61,7 +60,16 @@ const IntroductionAreaOne = () => {
                 aliquam. Risus rutrum tellus ultrices amet facilisis.
               </p> */}
               <p>
-              Discover a range of daily essentials crafted for convenience, affordability, and reliability. From personal care to home cleaning, we’ve got everything you need to make life easier.
+             <span style={{fontWeight:'bolder',color:'black'}}> Rukn Al Rolla Cleaning Equipment</span>  is a trusted supplier of
+high-quality cleaning solutions for commercial, industrial,
+and residential applications. 
+
+              </p>
+              <p>
+             <span style={{fontWeight:'bolder',color:'black'}}> Rukn Al Rolla Trading </span>   is a leading supplier of commercial
+and industrial equipment, specializing in battery trading
+and electrical devices.
+
               </p>
 {/* 
               <div className="introduction-list">
