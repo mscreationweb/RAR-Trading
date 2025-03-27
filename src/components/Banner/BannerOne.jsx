@@ -18,7 +18,7 @@ const BannerOne = () => {
   return (
     <section
       className="banner-area jarallax banner-bg"
-      data-background="/img/banner/banner_bg.jpg"
+      data-background="/img/AllRAR/Banner.webp"
     >
       <div className="container">
         <div className="row justify-content-end">
@@ -28,15 +28,15 @@ const BannerOne = () => {
                 Cleaning Services
               </span>
 
-              <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-                Best Cleaning Service in Home
-              </h2>
+              <h6 className="title wow fadeInUp" data-wow-delay=".4s">
+              A trusted supplier of high-quality cleaning solutions for commercial, industrial, and residential applications
+              </h6>
 
-              <p className="wow fadeInUp" data-wow-delay=".6s">
+              {/* <p className="wow fadeInUp" data-wow-delay=".6s">
                 Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse
                 nulla aliquam. Risus rutrum tellus eget ultrices pretium nisi
                 amet facilisis.
-              </p>
+              </p> */}
 
               <div className="banner-btn">
                 <Link

@@ -24,6 +24,8 @@ const AboutUsPage = () => {
         <BreadcrumbArea title={"About Us"} subtitle={"About Us"} />
         {/* <AboutUs /> */}
         <AboutUsTwo/>
+        <h1 style={{textAlign:'center',marginBottom:'130px'}}>WHY CHOOSE US?
+        </h1>
         <Mission/>
         {/* <HowWeWork/> */}
         {/* <div style={{backgroundColor:"green",marginBottom:"10px"}}> <ServicesAreaTwo/></div> */}

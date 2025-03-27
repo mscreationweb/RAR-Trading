@@ -48,7 +48,7 @@ const HeaderTwo = () => {
                       {/* <HeaderSearch /> */}
 
                       <li>
-  <a href="https://wa.me/+971522735200" rel="noopener noreferrer">
+  <a href="https://wa.me/+971558066233" rel="noopener noreferrer" target="_blank">
     <i className="fab fa-whatsapp" style={{ fontSize: '60px' }}></i> {/* WhatsApp */}
   </a>
 </li>

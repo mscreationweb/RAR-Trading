@@ -26,7 +26,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="content">
                       {/* <h4 className="title">Mail To Us</h4> */}
-                      <a href="mailto:info@sunlightsuae.com">info@sunlightsuae.com</a>
+                      <a href="mailto:info@RAR.com">info@RAR.com</a>
                     </div>
                   </div>
                 </div>
@@ -46,7 +46,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="content">
                       {/* <h4 className="title">Call for help:</h4> */}
-                      <a href="tel:+971 522 735 200">+971 522 735 200</a>
+                      <a href="tel:+971558066233">+971 558 066 233</a>
                     </div>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="content">
                       {/* <h4 className="title">Address</h4> */}
-                      <span>310968, Dubai, united Arab Emirates</span>
+                      <span>Sharjah, UAE</span>
                     </div>
                   </div>
                 </div>

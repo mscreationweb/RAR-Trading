@@ -18,13 +18,13 @@ const Dispenser = () => {
              <ul className="nav nav-tabs" id="myTab" role="tablist">
              <li className="nav-item" role="presentation">
                <Link to='/commercial' ><h5
-                   className="nav-link active"
+                   className="nav-link"
                    id="office-tab"
                    data-bs-toggle="tab"
                    data-bs-target="#office-tab-pane"
                    type="button"
                    role="tab"
-                  aria-controls="office-tab-pane"
+                   aria-controls="office-tab-pane"
                    aria-selected="false"
                  >
                   Commercial & Industrial Equipment
@@ -48,7 +48,7 @@ const Dispenser = () => {
                </li>
                <li className="nav-item" role="presentation">
                <Link to='/Dispenserpaper' ><h5
-                   className="nav-link"
+                   className="nav-link active"
                    id="office-tab"
                    data-bs-toggle="tab"
                    data-bs-target="#office-tab-pane"
@@ -57,8 +57,7 @@ const Dispenser = () => {
                    aria-controls="office-tab-pane"
                    aria-selected="true"
                  >
-                   Dispenser &
-                   Paper Products
+                  Dispenser & Paper Products
                  </h5></Link> 
                </li>
                <li className="nav-item" role="presentation">

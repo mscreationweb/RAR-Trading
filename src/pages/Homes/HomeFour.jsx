@@ -14,6 +14,7 @@ import { gsapTitleAnimation } from "../../lib/gsap-lib/gsapTitleAnimation";
 import IntroductionAreaOne from "../../components/Introduction/IntroductionAreaOne";
 import ServicesAreaThree from "../../components/ServicesArea/ServicesAreaThree";
 import ServicesAreaFour from "../../components/ServicesArea/ServicesAreaFour";
+import BannerOne from "../../components/Banner/BannerOne";
 
 const HomeFour = () => {
   useEffect(() => {
@@ -23,7 +24,9 @@ const HomeFour = () => {
   return (
     <>
       <Layout header={2} footer={2} topHeaderClassName={""}>
+      {/* <BannerOne /> */}
         <SliderAreaOne />
+
         {/* <AboutUs /> */}
         <IntroductionAreaOne/>
         <ServicesAreaFour/>

@@ -13,8 +13,8 @@ const ContactPageArea = () => {
                   <i className="fas fa-phone-volume"></i>
                 </div>
                 <div className="content">
-                  <a href="tel:971 4 3706261">+971 437 062 61</a>
-                  <a href="tel:971 522 735 200">+971 522 735 200</a>
+                  <a href="tel:971558066233">+971 558 066 233</a>
+                  {/* <a href="tel:971 522 735 200">+971 522 735 200</a> */}
                 </div>
               </div>
             </div>
@@ -25,7 +25,7 @@ const ContactPageArea = () => {
                   <i className="fas fa-envelope"></i>
                 </div>
                 <div className="content">
-                  <a href="mailto:info@sunlightsuae.com">info@sunlightsuae.com</a>
+                  <a href="mailto:info@RAR.com">info@RAR.com</a>
                   {/* <a href="mailto:Envato@gmail.com">Envato@gmail.com</a> */}
                 </div>
               </div>
@@ -38,7 +38,7 @@ const ContactPageArea = () => {
                 </div>
                 <div className="content">
                   <p>
-                  310968, Dubai, united Arab Emirates
+                  Sharjah, UAE
                   </p>
                 </div>
               </div>

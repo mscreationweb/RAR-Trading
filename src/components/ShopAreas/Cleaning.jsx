@@ -18,7 +18,7 @@ const Cleaning = () => {
              <ul className="nav nav-tabs" id="myTab" role="tablist">
              <li className="nav-item" role="presentation">
                <Link to='/commercial' ><h5
-                   className="nav-link active"
+                   className="nav-link"
                    id="office-tab"
                    data-bs-toggle="tab"
                    data-bs-target="#office-tab-pane"
@@ -30,21 +30,20 @@ const Cleaning = () => {
                   Commercial & Industrial Equipment
                  </h5></Link> 
                </li>
-             <li className="nav-item" role="presentation">
-                <Link to='/Cleaning' ><h5
-                   className="nav-link"
-                   id="all-tab"
+               <li className="nav-item" role="presentation">
+               <Link to='/Cleaning' ><h5
+                   className="nav-link active"
+                   id="office-tab"
                    data-bs-toggle="tab"
-                  
+                   data-bs-target="#office-tab-pane"
                    type="button"
                    role="tab"
-                   aria-controls="all-tab-pane"
+                   aria-controls="office-tab-pane"
                    aria-selected="true"
                  >
-                  Cleaning Trolleys
-                  & Accessories
+                 
+Cleaning Trolleys & Accessories
                  </h5></Link> 
-
                </li>
                <li className="nav-item" role="presentation">
                <Link to='/Dispenserpaper' ><h5

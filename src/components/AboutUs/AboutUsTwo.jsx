@@ -68,7 +68,7 @@ customer service.
                   <span className="icon">
                     <i className="fas fa-phone-alt"></i>
                   </span>
-                  <a href="tel:+97143706261">+97143706261</a>
+                  <a href="tel:+971558066233">+971 5580 662 33</a>
                 </div>
               </div>
             </div>

@@ -4471,7 +4471,12 @@ label {
 }
 @media only screen and (max-width: 768px) {
   #mission {
-    margin-bottom: 100px;
+    margin-bottom: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #missions {
+    margin-bottom: 200px;
   }
 }
 .blog-meta .list-wrap li {
