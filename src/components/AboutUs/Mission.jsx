@@ -10,7 +10,7 @@ const Mission = ({ item }) => {
         </Link>
       </div> */}
       
-  <div className="row justify-content-center mt-5 " style={{marginBottom:'150px'}} >
+  <div className="row justify-content-center mt-5 " style={{marginBottom:'200px'}} >
   <div className="col-lg-6 col-md-6 mb-5">
     <div className="blog-content-two"  id="mission">
       <h5 className="tag">RAR Cleaning Equipment      </h5>
