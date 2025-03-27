@@ -47,10 +47,10 @@
 :root { 
     --tg-body-font-family:  "Montserrat", sans-serif;
     --tg-heading-font-family:  "Montserrat", sans-serif;
-  --tg-primary-color: #20389A;
-  --tg-secondary-color: #F5841F;
+  --tg-primary-color: #313F7E;
+  --tg-secondary-color: #FFCC04;
   --tg-body-font-color: #7b7d83;
-  --tg-heading-font-color: #F5841F ;
+  --tg-heading-font-color: #FFCC04 ;
   --tg-paragraph-color: #7b7d83;
   --tg-body-font-size: 16px;
   --tg-body-font-weight: 400;
@@ -69,9 +69,9 @@
   --tg-purple: #6f42c1;
   --tg-pink: #d63384;
   --tg-red: #dc3545;
-  --tg-orange: #fd7e14;
+  --tg-orange: #FFCC04;
   --tg-yellow: #ffc107;
-  --tg-green: #F5841F;
+  --tg-green: #FFCC04;
   --tg-teal: #b1ff33;
   --tg-cyan: #0dcaf0;
   --tg-white: #ffffff;

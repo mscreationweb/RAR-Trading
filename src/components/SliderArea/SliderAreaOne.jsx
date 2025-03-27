@@ -29,7 +29,7 @@ const SliderAreaOne = () => {
     {
       bg: "/img/AllRAR/Banner.webp",
       subtitle: "",
-      title: "A trusted supplier of high-quality cleaning solutions for commercial, industrial, and residential applications",
+      title: "A Trusted High-quality Cleaning Solutions & Trading",
     }
   ];
 
