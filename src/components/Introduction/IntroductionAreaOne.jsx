@@ -150,7 +150,8 @@ and residential applications.
             </div>
           </div>
         </div>
-       <div className="shop-item-wrap d-flex justify-content-center align-items-center" >
+        <div className="shop-item-wrap d-flex justify-content-center align-items-center mx-2 custom-mobile-margin">
+
       
         <div className="col-lg-10 col-md-6 col-sm-9">
           <div className="col">
