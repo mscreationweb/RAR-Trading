@@ -11,7 +11,7 @@ const IntroductionAreaOne = () => {
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-9">
             <div className="introduction-img-wrap">
-              <img src="/img/AllRAR/about1.webp" alt="" />
+              <img src="/img/AllRAR/1.webp" alt="" />
               <img
                 src="/img/AllRAR/about2.webp"
                 data-aos="fade-right"
@@ -59,18 +59,20 @@ const IntroductionAreaOne = () => {
                 Lorem ipsum dolor sit amet consectetur suspendisse nulla
                 aliquam. Risus rutrum tellus ultrices amet facilisis.
               </p> */}
+
+<p>
+             <span style={{fontWeight:'bolder',color:'black'}}> Rukn Al Rolla Trading </span>   is a leading supplier of commercial
+and industrial equipment, specializing in battery trading
+and electrical devices.
+
+              </p>
               <p>
              <span style={{fontWeight:'bolder',color:'black'}}> Rukn Al Rolla Cleaning Equipment</span>  is a trusted supplier of
 high-quality cleaning solutions for commercial, industrial,
 and residential applications. 
 
               </p>
-              <p>
-             <span style={{fontWeight:'bolder',color:'black'}}> Rukn Al Rolla Trading </span>   is a leading supplier of commercial
-and industrial equipment, specializing in battery trading
-and electrical devices.
-
-              </p>
+             
 {/* 
               <div className="introduction-list">
               <h4 className="title tg-element-title">
@@ -131,6 +133,94 @@ and electrical devices.
                 </span> */}
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="row justify-content-center" style={{marginTop:'40px'}}>
+          <div className="col-xl-6 col-lg-7">
+            <div className="section-title-two white-title text-center mb-65 tg-heading-subheading animation-style2">
+              {/* <span className="sub-title" style={{color:'blue'}}>What We’re Offering</span> */}
+              <h2 className="title tg-element-title" style={{color:'blue'}}>
+              All Kind Of Commercial And Industrial Equipment Available In Different Brands
+
+              </h2>
+            </div>
+          </div>
+        </div>
+       <div className="shop-item-wrap d-flex justify-content-center align-items-center" >
+      
+        <div className="col-lg-10 col-md-6 col-sm-9">
+          <div className="col">
+            {/* Row 1 */}
+            <div className="row">
+              <div className="col-6">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/1.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+              <div className="col-6">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/2.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* Row 2 */}
+            <div className="row mt-3">
+              <div className="col-6">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/3.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+              <div className="col-6">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/4.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* Row 3 - Added 5 & 6 */}
+            <div className="row mt-3">
+              <div className="col-3">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/5.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/6.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/7.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="shop-thumb">
+                  <Link>
+                    <img src="img/AllRAR/commercial/8.webp" alt="" className="img-fluid" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* Row 4 - Added 7 & 8 */}
+           
           </div>
         </div>
       </div>

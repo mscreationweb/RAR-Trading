@@ -27,9 +27,9 @@ const SliderAreaOne = () => {
 
   const slider_area_one_items = [
     {
-      bg: "/img/AllRAR/Banner.webp",
+      bg: "/img/AllRAR/newbanner.webp",
       subtitle: "",
-      title: "A Trusted High-quality Cleaning Solutions & Trading",
+      title: "A Trusted High Quality Commercial And Industrial Equipment",
     }
   ];
 
