@@ -9,7 +9,7 @@ const FooterBottom = () => {
           <div className="col-lg-12 col-md-7">
             <div className="copyright-text">
               <p>
-              © 2025 <Link to="/">RAR Trading</Link> Designed By <Link to="https://mscreation.tech/" target="blank">MS Creation</Link> 
+              ©  <Link to="/">RAR Trading</Link> Designed By <Link to="https://mscreation.tech/" target="blank">MS Creation</Link> 
               </p>
             </div>
           </div>
