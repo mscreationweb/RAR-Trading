@@ -114,7 +114,7 @@ const FooterTwo = () => {
     </a>
   </li>
   <li>
-    <a href="#">
+    <ahref="mailto:info@ruknalrollatrading.com">
     {/* <a href="mailto:infosunlightsgt@gmail.com"> */}
       <i className="fas fa-envelope"></i> {/* Email */}
     </a>
