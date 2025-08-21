@@ -26,7 +26,7 @@ const ContactPageArea = () => {
                 </div>
                 <div className="content">
                   <a href="mailto:Info@ruknalrollatrading.com">Info@ruknalrollatrading.com</a>
-                  {/* <a href="mailto:Envato@gmail.com">Envato@gmail.com</a> */}
+                  {/* <a href="mailto:Envato@gmail.com">Envato@gmail.comz</a> */}
                 </div>
               </div>
             </div>
